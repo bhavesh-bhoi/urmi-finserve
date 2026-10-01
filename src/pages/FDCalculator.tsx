@@ -116,6 +116,12 @@ const FDCalculator = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="mt-8 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
+                    <p className="text-sm text-neutral-700">
+                        <strong>Disclaimer:</strong> The FD returns shown are illustrative, based solely on the interest rate you enter. Actual bank/NBFC FD rates vary by institution and tenure and are subject to change. Fixed Deposits are not mutual fund or SEBI-regulated products. This does not constitute investment advice.
+                    </p>
+                </div>
             </div>
         </div>
     );

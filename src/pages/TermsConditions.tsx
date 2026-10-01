@@ -17,8 +17,8 @@ const TermsConditions = () => {
             title: "2. Services Provided",
             content: [
                 {
-                    subtitle: "Financial Advisory Services",
-                    text: "We provide financial planning, investment advisory, and wealth management services. Our services include but are not limited to mutual fund distribution, insurance advisory, portfolio management guidance, and financial goal planning."
+                    subtitle: "Mutual Fund Distribution Services",
+                    text: "We are an AMFI-registered Mutual Fund Distributor. We provide Mutual Fund Distribution services and assist you in selecting mutual fund schemes and other financial products based on your goals. Our services include but are not limited to mutual fund distribution, insurance product distribution, and facilitation of Portfolio Management Services (PMS) and Alternative Investment Funds (AIF). We are not a SEBI-registered Investment Adviser and do not provide investment advisory services."
                 },
                 {
                     subtitle: "Distribution Services",
@@ -43,7 +43,7 @@ const TermsConditions = () => {
                 },
                 {
                     subtitle: "Investment Decisions",
-                    text: "While we provide recommendations and advice, the final investment decision rests with you. You acknowledge that you are responsible for your investment decisions and their outcomes."
+                    text: "While we assist you in selecting suitable mutual fund schemes, the final investment decision rests with you. You acknowledge that you are responsible for your investment decisions and their outcomes."
                 },
                 {
                     subtitle: "Account Security",
@@ -64,7 +64,7 @@ const TermsConditions = () => {
                 },
                 {
                     subtitle: "Suitability",
-                    text: "While we strive to recommend suitable investment products based on your risk profile and financial goals, you acknowledge that you have independently evaluated the suitability of any investment before proceeding."
+                    text: "While we strive to assist you in selecting suitable investment products based on your risk profile and financial goals, you acknowledge that you have independently evaluated the suitability of any investment before proceeding."
                 },
                 {
                     subtitle: "Third-Party Products",
@@ -78,10 +78,6 @@ const TermsConditions = () => {
                 {
                     subtitle: "Commission Structure",
                     text: "We earn commissions from product providers (AMCs, insurance companies) for distributing their products. These commissions are disclosed in our Commission Disclosure document and do not result in additional charges to you beyond the standard product fees."
-                },
-                {
-                    subtitle: "Advisory Fees",
-                    text: "For certain advisory services, we may charge separate advisory fees. These fees will be clearly communicated and agreed upon before providing such services."
                 },
                 {
                     subtitle: "Transaction Charges",
@@ -98,7 +94,7 @@ const TermsConditions = () => {
             content: [
                 {
                     subtitle: "SEBI Registration",
-                    text: "Urmi Financial Services Pvt Ltd is registered with the Securities and Exchange Board of India (SEBI) as a [Mutual Fund Distributor/Investment Adviser - specify your registration]. We comply with all applicable SEBI regulations and guidelines."
+                    text: "Urmi Financial Services Pvt Ltd is an AMFI-registered Mutual Fund Distributor (ARN: 312394) operating under the framework of SEBI (Mutual Funds) Regulations. We are not a SEBI-registered Investment Adviser and do not provide investment advisory services. We comply with all applicable SEBI and AMFI regulations and guidelines."
                 },
                 {
                     subtitle: "AMFI Registration",
@@ -169,7 +165,7 @@ const TermsConditions = () => {
                 },
                 {
                     subtitle: "Effect of Termination",
-                    text: "Upon termination, your right to use our services will immediately cease. We will provide assistance in transferring your investments to another advisor or directly to the AMCs, subject to applicable regulations and procedures."
+                    text: "Upon termination, your right to use our services will immediately cease. We will provide assistance in transferring your investments to another distributor or directly to the AMCs, subject to applicable regulations and procedures."
                 }
             ]
         },
@@ -207,12 +203,16 @@ const TermsConditions = () => {
                     text: "If you have any complaints or grievances, please contact our Grievance Officer at the contact details provided below. We will endeavor to resolve your complaint within 30 days."
                 },
                 {
+                    subtitle: "SEBI Escalation - SCORES & ODR",
+                    text: "If you are not satisfied with the resolution of your complaint, you may approach SEBI through the SCORES portal (https://scores.sebi.gov.in) or the SEBI-authorized SMART ODR portal (https://smartodr.in) for online dispute resolution."
+                },
+                {
                     subtitle: "Arbitration",
-                    text: "Any disputes arising out of or relating to these Terms and Conditions shall be resolved through arbitration in accordance with the Arbitration and Conciliation Act, 1996. The arbitration shall be conducted in [City], India, and the language of arbitration shall be English."
+                    text: "Any disputes arising out of or relating to these Terms and Conditions shall be resolved through arbitration in accordance with the Arbitration and Conciliation Act, 1996. The arbitration shall be conducted in Surat, India, and the language of arbitration shall be English."
                 },
                 {
                     subtitle: "Jurisdiction",
-                    text: "These Terms and Conditions shall be governed by the laws of India. Subject to arbitration, the courts of [City], India shall have exclusive jurisdiction over any disputes."
+                    text: "These Terms and Conditions shall be governed by the laws of India. Subject to arbitration, the courts of Surat, India shall have exclusive jurisdiction over any disputes."
                 }
             ]
         },
@@ -317,18 +317,17 @@ const TermsConditions = () => {
                             <div>
                                 <p className="font-semibold mb-2">For General Inquiries</p>
                                 <p className="text-neutral-100">
-                                    Email: <a href="mailto:info@urmifinancial.com" className="underline hover:text-accent-green transition-colors">info@urmifinancial.com</a>
+                                    Email: <a href="mailto:care@urmifinserve.com" className="underline hover:text-accent-green transition-colors">care@urmifinserve.com</a>
                                 </p>
                                 <p className="text-neutral-100">
-                                    Phone: <a href="tel:+911234567890" className="underline hover:text-accent-green transition-colors">+91 123 456 7890</a>
+                                    Phone: <a href="tel:+919328933841" className="underline hover:text-accent-green transition-colors">+91 93289 33841</a>
                                 </p>
                             </div>
                             <div>
                                 <p className="font-semibold mb-2">Grievance Officer</p>
                                 <p className="text-neutral-100">
-                                    Name: [Grievance Officer Name]<br />
-                                    Email: <a href="mailto:grievance@urmifinancial.com" className="underline hover:text-accent-green transition-colors">grievance@urmifinancial.com</a><br />
-                                    Phone: <a href="tel:+911234567890" className="underline hover:text-accent-green transition-colors">+91 123 456 7890</a>
+                                    Email: <a href="mailto:care@urmifinserve.com" className="underline hover:text-accent-green transition-colors">care@urmifinserve.com</a><br />
+                                    Phone: <a href="tel:+919328933841" className="underline hover:text-accent-green transition-colors">+91 93289 33841</a>
                                 </p>
                             </div>
                         </div>
@@ -348,7 +347,7 @@ const TermsConditions = () => {
                             Important Disclaimer
                         </h4>
                         <p className="text-sm text-neutral-700">
-                            <strong>Mutual Fund investments are subject to market risks. Please read all scheme-related documents carefully before investing.</strong> Past performance is not indicative of future returns. The information provided is for general information purposes only and should not be construed as investment advice. Please consult with a qualified financial advisor before making any investment decisions.
+                            <strong>Mutual Fund investments are subject to market risks. Please read all scheme-related documents carefully before investing.</strong> Past performance is not indicative of future returns. The information provided is for general information purposes only and should not be construed as investment advice. Please consult a SEBI-registered Investment Adviser or other qualified professional before making any investment decisions.
                         </p>
                     </motion.div>
 
@@ -360,7 +359,7 @@ const TermsConditions = () => {
                         className="mt-8 p-6 bg-neutral-50 rounded-xl border border-neutral-200"
                     >
                         <p className="text-sm text-neutral-600 text-center">
-                            <strong>Regulatory Information:</strong> Urmi Financial Services Pvt Ltd | SEBI Registration No: [Your SEBI Registration Number] | AMFI Registration No: [Your AMFI ARN] | Registered Office: [Your Registered Office Address]
+                            <strong>Regulatory Information:</strong> Urmi Financial Services Pvt Ltd | AMFI Registered Mutual Fund Distributor | ARN: 312394 (Valid from 24/10/2024 to 23/10/2027) | Registered Office: 806, Eight Floor, Homeland City, Opp J H Ambani School, Udhna Magdalla Road, Vesu, Surat 395007, Gujarat
                         </p>
                     </motion.div>
                 </div>

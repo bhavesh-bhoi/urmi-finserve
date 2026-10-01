@@ -114,12 +114,14 @@ const Navbar = () => {
                             </div>
                         ))}
 
-                        <Link
-                            to="/login"
+                        <a
+                            href="https://urmifinserve.investwell.app/app/#/login"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn-secondary text-sm py-2.5 px-5"
                         >
-                            Portfolio Login
-                        </Link>
+                            Login
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -234,12 +236,14 @@ const Navbar = () => {
                                         )}
                                     </div>
                                 ))}
-                                <Link
-                                    to="/login"
+                                <a
+                                    href="https://urmifinserve.investwell.app/app/#/login"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="block w-full text-center btn-secondary mt-4"
                                 >
-                                    Portfolio Login
-                                </Link>
+                                    Login
+                                </a>
                             </div>
                         </motion.div>
                     </>

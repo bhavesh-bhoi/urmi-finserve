@@ -148,8 +148,8 @@ const GoalCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Goal Planning Report',
-            subtitle: selectedGoal ? `${selectedGoal} Goal` : 'Financial Goal Planning',
+            title: 'Goal Calculator Report',
+            subtitle: selectedGoal ? `${selectedGoal} Goal` : 'Financial Goal Calculator',
             calculatorType: 'Goal',
             inputs: [
                 { label: 'Goal Amount', value: formatCurrency(goalAmount) },
@@ -186,10 +186,10 @@ const GoalCalculator = () => {
     return (
         <div className="min-h-screen bg-neutral-50">
             <PageHeader
-                title="Goal Planning Calculator"
-                subtitle="Achieve your financial dreams with systematic planning"
+                title="Goal Calculator"
+                subtitle="Achieve your financial dreams with systematic investing"
                 image={toolsHeader}
-                badge="Planning Tool"
+                badge="Calculator Tool"
             />
 
             <div className="section-container py-16">
@@ -430,7 +430,7 @@ const GoalCalculator = () => {
                     className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl"
                 >
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> This calculator provides estimates based on the inputs provided. Actual returns may vary depending on market conditions. Start investing early to benefit from the power of compounding.
+                        <strong>Disclaimer:</strong> This calculator provides estimates based on the inputs provided. Actual returns may vary depending on market conditions. Start investing early to benefit from the power of compounding. This does not constitute investment advice; please consult a SEBI-registered Investment Adviser for personalized advice.
                     </p>
                 </motion.div>
             </div>

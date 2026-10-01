@@ -24,7 +24,7 @@ export const services: Service[] = [
             'Systematic Investment Plans (SIP) for disciplined investing'
         ],
         whoShouldConsider: [
-            'Investors looking for long-term wealth creation',
+            'Investors looking for long-term investment growth',
             'Those seeking professional portfolio management',
             'Individuals wanting to start with small amounts',
             'Investors seeking diversification'
@@ -52,12 +52,12 @@ export const services: Service[] = [
         id: 'aif-pms',
         title: 'AIF / PMS',
         shortDescription: 'Explore the world of Alternate Investments – a pathway to diversify your portfolio and grow your wealth.',
-        description: 'Alternative Investment Funds (AIF) and Portfolio Management Services (PMS) offer sophisticated investment solutions for high-net-worth individuals seeking customized portfolio management and access to alternative asset classes.',
+        description: 'Alternative Investment Funds (AIF) and Portfolio Management Services (PMS) offer sophisticated investment solutions for high-net-worth individuals seeking access to customized portfolios and alternative asset classes. We facilitate and refer AIF and PMS products offered by SEBI-registered Portfolio Managers and Fund Managers — these products are designed and managed by the respective licensed managers, not by us.',
         icon: '💼',
         benefits: [
-            'Customized portfolio management',
+            'Access to professionally managed portfolios (via licensed managers)',
             'Access to alternative asset classes',
-            'Professional fund management',
+            'Products managed by SEBI-registered Portfolio Managers / Fund Managers',
             'Higher return potential',
             'Dedicated relationship manager'
         ],
@@ -89,34 +89,34 @@ export const services: Service[] = [
     {
         id: 'model-portfolio',
         title: 'Model Portfolio',
-        shortDescription: 'A model portfolio is a pre-constructed investment portfolio designed to achieve specific financial goals, risk tolerance, and time horizons.',
-        description: 'Model portfolios are expertly designed investment solutions that provide a ready-made asset allocation strategy aligned with your financial goals and risk profile.',
+        shortDescription: 'A model portfolio is a pre-built asset allocation product designed and managed by AMCs and SEBI-registered portfolio managers. We help you access model portfolios matched to your stated risk profile.',
+        description: 'We help you access ready-made model portfolios designed and managed by AMCs and SEBI-registered portfolio managers, matched to your stated risk profile and financial goals. These portfolios are created and maintained by the AMC or portfolio manager, not by us — our role is limited to helping you identify and invest in a model portfolio suited to your needs.',
         icon: '📈',
         benefits: [
-            'Expert-designed asset allocation',
-            'Aligned with specific risk profiles',
-            'Regular rebalancing and monitoring',
-            'Transparent investment strategy',
-            'Cost-effective solution'
+            'Access to pre-built portfolios designed by AMCs and SEBI-registered portfolio managers',
+            'Portfolios matched to your stated risk profile',
+            'Rebalancing and monitoring carried out by the AMC or portfolio manager',
+            'Transparent structure disclosed by the product provider',
+            'Cost-effective way to access professionally constructed allocations'
         ],
         whoShouldConsider: [
             'Investors seeking ready-made solutions',
             'Those new to investing',
-            'Investors wanting professional asset allocation',
+            'Investors wanting access to professionally constructed asset allocation',
             'Busy professionals'
         ],
         faqs: [
             {
                 question: 'What is a model portfolio?',
-                answer: 'A model portfolio is a pre-designed investment strategy with specific asset allocation created by experts to meet particular investment objectives and risk profiles.'
+                answer: 'A model portfolio is a pre-built investment product with a specific asset allocation, designed and managed by an AMC or a SEBI-registered portfolio manager to meet particular investment objectives and risk profiles.'
             },
             {
-                question: 'How often is it rebalanced?',
-                answer: 'Model portfolios are typically reviewed and rebalanced quarterly or when there are significant market movements to maintain the desired asset allocation.'
+                question: 'Who rebalances the model portfolio?',
+                answer: 'Rebalancing and ongoing monitoring is carried out by the AMC or SEBI-registered portfolio manager that designs and manages the model portfolio, as per their disclosed process — not by us.'
             },
             {
                 question: 'Can I customize the model portfolio?',
-                answer: 'While model portfolios are pre-designed, they can often be customized to some extent based on your specific requirements and constraints.'
+                answer: 'Model portfolios are pre-designed by the AMC or portfolio manager. We can help you choose from the available options based on your requirements, but customization is subject to what the AMC or portfolio manager offers.'
             },
             {
                 question: 'What returns can I expect?',
@@ -139,7 +139,7 @@ export const services: Service[] = [
         ],
         whoShouldConsider: [
             'Investors with higher risk appetite',
-            'Those seeking long-term wealth creation',
+            'Those seeking long-term investment growth',
             'Individuals who can research companies',
             'Investors comfortable with market volatility'
         ],
@@ -209,7 +209,7 @@ export const services: Service[] = [
         benefits: [
             'Financial protection for family',
             'Tax benefits under Section 80C and 10(10D)',
-            'Wealth creation through investment plans',
+            'Investment growth potential through investment-linked plans',
             'Loan facility against policy',
             'Peace of mind'
         ],
@@ -217,7 +217,7 @@ export const services: Service[] = [
             'Primary earning members of family',
             'Parents with dependents',
             'Those seeking tax benefits',
-            'Individuals planning for retirement'
+            'Individuals saving for retirement'
         ],
         faqs: [
             {
@@ -241,11 +241,11 @@ export const services: Service[] = [
     {
         id: 'fixed-bond',
         title: 'Fixed Deposit / Bonds',
-        shortDescription: 'Fixed Deposits (FDs) are a reliable and straightforward investment option. They provide a safe harbour for your hard-earned money, offering guaranteed returns with minimal risk.',
+        shortDescription: 'Fixed Deposits (FDs) are a reliable and straightforward investment option. They provide a safe harbour for your hard-earned money, offering fixed, predetermined returns with minimal risk.',
         description: 'Fixed deposits and bonds offer stable, predictable returns with capital protection, making them ideal for conservative investors and those seeking regular income.',
         icon: '💰',
         benefits: [
-            'Guaranteed returns',
+            'Fixed, predetermined returns',
             'Capital protection',
             'Regular interest income',
             'Flexible tenure options',
@@ -330,7 +330,7 @@ export const services: Service[] = [
         whoShouldConsider: [
             'Salaried individuals',
             'Self-employed professionals',
-            'Those seeking retirement planning',
+            'Those investing for retirement',
             'Tax-saving investors'
         ],
         faqs: [

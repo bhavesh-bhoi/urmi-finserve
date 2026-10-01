@@ -143,7 +143,7 @@ const RetirementCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Retirement Planning Report',
+            title: 'Retirement Calculator Report',
             subtitle: 'Secure Your Golden Years',
             calculatorType: 'Retirement',
             inputs: [
@@ -181,9 +181,9 @@ const RetirementCalculator = () => {
         <div className="min-h-screen bg-neutral-50">
             <PageHeader
                 title="Retirement Calculator"
-                subtitle="Plan your retirement corpus and secure your future"
+                subtitle="Estimate your retirement corpus and secure your future"
                 image={toolsHeader}
-                badge="Planning Tool"
+                badge="Calculator Tool"
             />
 
             <div className="section-container py-16">
@@ -196,7 +196,7 @@ const RetirementCalculator = () => {
                     >
                         <div className="flex items-center gap-2 mb-6">
                             <FaUmbrella className="text-primary text-2xl" />
-                            <h2 className="text-2xl font-bold text-neutral-900">Retirement Planning</h2>
+                            <h2 className="text-2xl font-bold text-neutral-900">Retirement Details</h2>
                         </div>
 
                         <div>
@@ -334,7 +334,7 @@ const RetirementCalculator = () => {
                     >
                         {/* Main Result Card */}
                         <div className="card bg-gradient-to-br from-primary to-primary-dark text-white">
-                            <h3 className="text-lg font-medium mb-6 opacity-90">Retirement Planning Summary</h3>
+                            <h3 className="text-lg font-medium mb-6 opacity-90">Retirement Summary</h3>
                             <div className="space-y-4">
                                 <div className="p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                                     <p className="text-sm opacity-90 mb-1">Corpus Needed at Retirement</p>
@@ -411,7 +411,7 @@ const RetirementCalculator = () => {
                     className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl"
                 >
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> This calculator provides estimates for retirement planning. Actual corpus needed may vary based on lifestyle, medical expenses, and inflation. Consult with a certified financial planner for personalized retirement planning.
+                        <strong>Disclaimer:</strong> This calculator provides illustrative estimates only and does not constitute investment advice. Actual corpus needed may vary based on lifestyle, medical expenses, and inflation. Consult a SEBI-registered Investment Adviser for personalized advice.
                     </p>
                 </motion.div>
             </div>

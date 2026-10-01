@@ -216,9 +216,13 @@ const RiskProfile = () => {
                                         Retake Assessment
                                     </button>
                                     <button className="btn-primary flex-1">
-                                        Get Personalized Plan
+                                        Explore Suitable Mutual Fund Options
                                     </button>
                                 </div>
+
+                                <p className="text-xs text-neutral-500 mt-6">
+                                    Disclaimer: This is a self-assessment tool for illustrative and informational purposes only, based on your responses. It does not constitute investment advice. Mutual Fund investments are subject to market risks; please read all scheme related documents carefully and consult a SEBI-registered Investment Adviser for personalized advice.
+                                </p>
                             </div>
                         </motion.div>
                     )}

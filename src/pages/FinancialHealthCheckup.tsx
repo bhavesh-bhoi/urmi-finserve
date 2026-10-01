@@ -35,7 +35,7 @@ const FinancialHealthCheckup = () => {
         },
         {
             id: 'retirement',
-            question: 'Have you started planning for retirement?',
+            question: 'Have you started saving for retirement?',
             options: ['Yes', 'Thinking about it', 'No']
         }
     ];
@@ -126,11 +126,11 @@ const FinancialHealthCheckup = () => {
                                             </li>}
                                             {score < 40 && <li className="flex items-start gap-2">
                                                 <span className="text-primary mt-1">•</span>
-                                                <span>Start a systematic investment plan (SIP) for long-term wealth creation</span>
+                                                <span>Start a systematic investment plan (SIP) for long-term investment growth</span>
                                             </li>}
                                             <li className="flex items-start gap-2">
                                                 <span className="text-primary mt-1">•</span>
-                                                <span>Schedule a consultation with our financial advisors for personalized guidance</span>
+                                                <span>Schedule a consultation with our team for personalized guidance</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -138,6 +138,10 @@ const FinancialHealthCheckup = () => {
                                     <button className="btn-primary mt-8">
                                         Schedule Free Consultation
                                     </button>
+
+                                    <p className="text-xs text-neutral-500 mt-6">
+                                        Disclaimer: This self-assessment tool is for illustrative and informational purposes only, based on your responses. It does not constitute personalized investment advice. Please consult a SEBI-registered Investment Adviser for personalized advice.
+                                    </p>
                                 </div>
                             </motion.div>
                         )}

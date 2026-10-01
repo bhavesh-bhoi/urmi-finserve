@@ -64,6 +64,12 @@ const SWPCalculator = () => {
                         <div className="w-48 h-48 mx-auto"><Doughnut data={chartData} /></div>
                     </div>
                 </div>
+
+                <div className="mt-8 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
+                    <p className="text-sm text-neutral-700">
+                        <strong>Disclaimer:</strong> SWP outcomes depend on market performance and are not guaranteed. Actual returns may vary from the rate assumed here. This calculator is illustrative only and does not constitute investment advice.
+                    </p>
+                </div>
             </div>
         </div>
     );

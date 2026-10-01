@@ -66,6 +66,12 @@ const NPSCalculator = () => {
                         <div className="w-48 h-48 mx-auto"><Doughnut data={chartData} /></div>
                     </div>
                 </div>
+
+                <div className="mt-8 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
+                    <p className="text-sm text-neutral-700">
+                        <strong>Disclaimer:</strong> These projections are illustrative estimates based on assumed return rates. Actual NPS returns are market-linked and subject to risk. This does not constitute investment advice. Please consult a SEBI-registered Investment Adviser for personalized advice.
+                    </p>
+                </div>
             </div>
         </div>
     );

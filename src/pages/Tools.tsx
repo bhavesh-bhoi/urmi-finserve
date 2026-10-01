@@ -79,7 +79,7 @@ const Tools = () => {
                             Need Expert Guidance?
                         </h2>
                         <p className="text-lg text-neutral-600 mb-8">
-                            While our tools provide valuable insights, personalized advice from our experts can help you make the best financial decisions
+                            While our tools provide valuable insights, our team can help you select mutual fund schemes suited to your financial goals
                         </p>
                         <Link to="/contact" className="btn-primary">
                             Schedule a Consultation

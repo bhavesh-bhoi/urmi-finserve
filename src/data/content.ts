@@ -62,7 +62,7 @@ export const testimonials: Testimonial[] = [
     {
         id: 1,
         name: 'Arun Alichen',
-        content: 'Impressed with their financial expertise. They\'ve made a significant difference in my investments, and their strategies have maximized my returns.',
+        content: 'Impressed with their professionalism and support. They\'ve made a real difference in how I manage my investments.',
         rating: 5
     },
     {
@@ -98,11 +98,11 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
     {
         id: '1',
-        title: '5 Tips for Financial Planning for Women',
+        title: '5 Money Management Tips for Women',
         excerpt: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities...',
-        content: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities. However, when it comes to financial planning, many women still lag behind. Here are 5 essential tips for women to take control of their financial future: 1. Start early to leverage compounding. 2. Build an emergency fund. 3. Invest in yourself through skills and education. 4. Understand your risk appetite. 5. Plan for retirement specifically as women tend to live longer.',
+        content: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities. However, when it comes to managing their money, many women still lag behind. Here are 5 essential tips for women to take control of their financial future: 1. Start early to leverage compounding. 2. Build an emergency fund. 3. Invest in yourself through skills and education. 4. Understand your risk appetite. 5. Plan for retirement specifically as women tend to live longer.',
         date: '2024-11-15',
-        category: 'Financial Planning',
+        category: 'Personal Finance',
         image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=1000&auto=format&fit=crop'
     },
     {
@@ -131,13 +131,15 @@ export interface Partner {
     logo: string;
 }
 
-export const partners: Partner[] = [
-    { id: 1, name: 'HDFC Mutual Fund', logo: '/partners/hdfc.png' },
-    { id: 2, name: 'ICICI Prudential', logo: '/partners/icici.png' },
-    { id: 3, name: 'SBI Mutual Fund', logo: '/partners/sbi.png' },
-    { id: 4, name: 'Axis Mutual Fund', logo: '/partners/axis.png' },
-    { id: 5, name: 'Kotak Mahindra', logo: '/partners/kotak.png' },
-    { id: 6, name: 'Aditya Birla Sun Life', logo: '/partners/birla.png' },
-    { id: 7, name: 'UTI Mutual Fund', logo: '/partners/uti.png' },
-    { id: 8, name: 'DSP Mutual Fund', logo: '/partners/dsp.png' }
-];
+// TEMPORARILY EMPTIED — restore the exact AMC partner list below when they can be shown again
+// export const partners: Partner[] = [
+//     { id: 1, name: 'HDFC Mutual Fund', logo: '/partners/hdfc.png' },
+//     { id: 2, name: 'ICICI Prudential', logo: '/partners/icici.png' },
+//     { id: 3, name: 'SBI Mutual Fund', logo: '/partners/sbi.png' },
+//     { id: 4, name: 'Axis Mutual Fund', logo: '/partners/axis.png' },
+//     { id: 5, name: 'Kotak Mahindra', logo: '/partners/kotak.png' },
+//     { id: 6, name: 'Aditya Birla Sun Life', logo: '/partners/birla.png' },
+//     { id: 7, name: 'UTI Mutual Fund', logo: '/partners/uti.png' },
+//     { id: 8, name: 'DSP Mutual Fund', logo: '/partners/dsp.png' }
+// ];
+export const partners: Partner[] = [];

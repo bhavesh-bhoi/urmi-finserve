@@ -39,8 +39,8 @@ const MarriageCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Marriage Planning Report',
-            subtitle: 'Plan for the Big Day',
+            title: 'Marriage Calculator Report',
+            subtitle: 'Prepare for the Big Day',
             calculatorType: 'Marriage',
             inputs: [
                 { label: 'Current Wedding Cost', value: formatCurrency(currentCost) },
@@ -63,7 +63,7 @@ const MarriageCalculator = () => {
 
     return (
         <div className="min-h-screen bg-neutral-50">
-            <PageHeader title="Marriage Planning" subtitle="Plan for the big day with confidence" image={toolsHeader} badge="Planning Tool" />
+            <PageHeader title="Marriage Calculator" subtitle="Prepare for the big day with confidence" image={toolsHeader} badge="Calculator Tool" />
             <div className="section-container py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6 card">
@@ -159,7 +159,7 @@ const MarriageCalculator = () => {
 
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> Wedding costs vary widely based on preferences and location. This calculator provides estimates to help you plan better.
+                        <strong>Disclaimer:</strong> Wedding costs vary widely based on preferences and location. This calculator provides estimates to help you plan better. This does not constitute investment advice; please consult a SEBI-registered Investment Adviser for personalized advice.
                     </p>
                 </motion.div>
             </div>

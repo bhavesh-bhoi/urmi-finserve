@@ -24,7 +24,7 @@ const Calculators = () => {
         },
         {
             id: 'goal',
-            title: 'Goal Planning Calculator',
+            title: 'Goal Calculator',
             description: 'Calculate savings needed for your financial goals',
             icon: '🎯',
             link: '/tools/goal-calculator',
@@ -80,7 +80,7 @@ const Calculators = () => {
         },
         {
             id: 'education',
-            title: 'Education Planning Calculator',
+            title: 'Education Calculator',
             description: 'Plan for your child\'s education expenses',
             icon: '🎓',
             link: '/tools/education-calculator',
@@ -88,7 +88,7 @@ const Calculators = () => {
         },
         {
             id: 'marriage',
-            title: 'Marriage Planning Calculator',
+            title: 'Marriage Calculator',
             description: 'Plan for wedding and marriage expenses',
             icon: '💍',
             link: '/tools/marriage-calculator',
@@ -183,13 +183,13 @@ const Calculators = () => {
                         className="mt-16 text-center bg-gradient-to-br from-primary to-primary-dark text-white rounded-2xl p-8 md:p-12"
                     >
                         <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                            Need Expert Guidance?
+                            Need Help Choosing a Calculator or Fund?
                         </h3>
                         <p className="text-lg text-neutral-100 mb-6 max-w-2xl mx-auto">
-                            Our financial advisors can help you create a personalized plan based on your goals
+                            Our team can help you select the right mutual fund schemes based on your goals
                         </p>
                         <Link to="/contact" className="btn-accent inline-block">
-                            Schedule Free Consultation
+                            Contact Us
                         </Link>
                     </motion.div>
                 </div>

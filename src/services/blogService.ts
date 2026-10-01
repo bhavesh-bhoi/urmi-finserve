@@ -33,9 +33,9 @@ const fallbackBlogs: BlogPost[] = [
         id: '2',
         title: 'Tax Saving Strategies for FY 2024-25',
         excerpt: 'Discover effective tax-saving strategies and investment options under Section 80C, 80D, and other provisions.',
-        content: 'Tax planning is essential for maximizing your savings...',
+        content: 'Tax-saving investing is essential for maximizing your savings...',
         date: '2024-11-28',
-        category: 'Tax Planning',
+        category: 'Tax Saving',
         image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop',
         source: 'Moneycontrol',
         url: '#'
@@ -53,9 +53,9 @@ const fallbackBlogs: BlogPost[] = [
     },
     {
         id: '4',
-        title: 'Retirement Planning: How Much Do You Really Need?',
+        title: 'Retirement Corpus: How Much Do You Really Need?',
         excerpt: 'Calculate your retirement corpus and learn strategies to build a comfortable retirement fund.',
-        content: 'Planning for retirement is crucial for financial security...',
+        content: 'Saving for retirement is crucial for financial security...',
         date: '2024-11-20',
         category: 'Retirement',
         image: 'https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&auto=format&fit=crop',
@@ -66,7 +66,7 @@ const fallbackBlogs: BlogPost[] = [
         id: '5',
         title: 'Insurance 101: Types and Importance',
         excerpt: 'Understand different types of insurance policies and why they are essential for financial protection.',
-        content: 'Insurance is a crucial component of financial planning...',
+        content: 'Insurance is a crucial component of personal finance management...',
         date: '2024-11-15',
         category: 'Insurance',
         image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&auto=format&fit=crop',
@@ -125,7 +125,7 @@ export const fetchFinancialBlogs = async (): Promise<BlogPost[]> => {
 function getCategoryFromTitle(title: string): string {
     const lowerTitle = title.toLowerCase();
 
-    if (lowerTitle.includes('tax')) return 'Tax Planning';
+    if (lowerTitle.includes('tax')) return 'Tax Saving';
     if (lowerTitle.includes('retirement') || lowerTitle.includes('pension')) return 'Retirement';
     if (lowerTitle.includes('insurance')) return 'Insurance';
     if (lowerTitle.includes('stock') || lowerTitle.includes('equity')) return 'Stock Market';

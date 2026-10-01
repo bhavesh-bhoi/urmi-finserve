@@ -104,7 +104,7 @@ export const generateCalculatorPDF = (options: PDFOptions): void => {
         pdf.setFont('helvetica', 'normal');
 
         // Footer text
-        const footerText = footer || 'This is a computer-generated report. For personalized advice, please consult with our financial advisors.';
+        const footerText = footer || 'This is a computer-generated report for illustrative purposes only and does not constitute investment advice. Mutual Fund investments are subject to market risks; please read all scheme related documents carefully.';
         const footerLines = pdf.splitTextToSize(footerText, pageWidth - 2 * margin);
         pdf.text(footerLines, margin, footerY - 10);
 

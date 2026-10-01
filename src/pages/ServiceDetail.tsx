@@ -199,7 +199,7 @@ const ServiceDetail = () => {
                                 Interested in {service.title}?
                             </h3>
                             <p className="text-lg text-neutral-100 mb-6">
-                                Let our experts help you make the right financial decisions
+                                Our team can help you find the right mutual fund and investment products for your needs
                             </p>
                             <Link to="/contact" className="btn-accent inline-block">
                                 Talk to Us About {service.title}

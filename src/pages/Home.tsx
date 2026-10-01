@@ -89,8 +89,8 @@ const Home = () => {
                             },
                             {
                                 number: '02',
-                                title: 'Professional & Unbiased Advice',
-                                description: 'Professional advice can make a significant difference at every stage of your life. Our advisers are highly qualified with loads of experience in personal finance & wealth management.'
+                                title: 'Professional & Unbiased Guidance',
+                                description: 'Professional guidance can make a significant difference at every stage of your life. Our team is highly qualified with loads of experience in personal finance and mutual fund distribution.'
                             },
                             {
                                 number: '03',
@@ -136,7 +136,7 @@ const Home = () => {
                                 Investor's <span className="text-accent-green">Corner</span>
                             </h2>
                             <p className="text-lg text-neutral-300">
-                                Empower your financial journey with our suite of expert-grade calculators and precision planning tools.
+                                Empower your financial journey with our suite of expert-grade calculators and easy-to-use investment tools.
                             </p>
                         </motion.div>
 
@@ -158,17 +158,17 @@ const Home = () => {
                         {[
                             {
                                 title: 'SIP Calculator',
-                                desc: 'Calculate the wealth you can create through regular monthly investments.',
+                                desc: 'Calculate the corpus you can build through regular monthly investments.',
                                 icon: '📈',
                                 link: '/tools/calculators/sip',
-                                trend: '+12% Avg. Return'
+                                trend: 'Popular Choice'
                             },
                             {
-                                title: 'Goal Planner',
+                                title: 'Goal Calculator',
                                 desc: 'Map out your dreams and find exactly how much you need to save.',
                                 icon: '🎯',
                                 link: '/tools/calculators/goal',
-                                trend: 'Plan Smart'
+                                trend: 'Save Smart'
                             },
                             {
                                 title: 'Retirement Tool',
@@ -220,11 +220,11 @@ const Home = () => {
 
                     <div className="mt-16 p-8 bg-gradient-to-r from-primary/20 to-accent-green/5 rounded-3xl border border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
                         <div>
-                            <h4 className="text-2xl font-bold mb-2">Need a custom investment strategy?</h4>
-                            <p className="text-neutral-400">Our experts can help you build a portfolio tailored to your unique financial profile.</p>
+                            <h4 className="text-2xl font-bold mb-2">Need help choosing the right mutual funds?</h4>
+                            <p className="text-neutral-400">Our team can help you select mutual fund schemes and other investment products suited to your financial goals.</p>
                         </div>
                         <Link to="/contact" className="btn-primary py-4 px-8 whitespace-nowrap">
-                            Schedule A Consultation
+                            Get In Touch
                         </Link>
                     </div>
                 </div>
@@ -236,8 +236,7 @@ const Home = () => {
             {/* Blog Preview */}
             <BlogSection />
 
-            {/* Partners */}
-            {/* Partners Section - Static Version */}
+            {/* Partners section TEMPORARILY HIDDEN — restore this exact block when it can be shown again
             <section className="py-16 md:py-24 bg-neutral-50">
                 <div className="section-container">
                     <motion.div
@@ -268,6 +267,7 @@ const Home = () => {
                     </motion.div>
                 </div>
             </section>
+            */}
 
         </div>
     );

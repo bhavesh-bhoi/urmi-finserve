@@ -238,7 +238,7 @@ const SIPCalculator = () => {
                                         <div className="group relative">
                                             <FaInfoCircle className="text-neutral-400 cursor-help" />
                                             <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-3 bg-neutral-900 text-white text-xs rounded-lg shadow-lg z-10">
-                                                Duration for which you plan to stay invested. Longer duration helps in wealth creation
+                                                Duration for which you plan to stay invested. Longer duration helps in long-term investment growth through compounding
                                             </div>
                                         </div>
                                     </label>

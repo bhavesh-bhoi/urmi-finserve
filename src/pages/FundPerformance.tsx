@@ -3,13 +3,22 @@ import PageHeader from '../components/PageHeader';
 import toolsHeader from '../assets/tools-header.png';
 
 const FundPerformance = () => {
+    // TEMPORARILY GENERICIZED — restore the exact AMC fund names below when they can be shown again
+    // const topFunds = [
+    //     { name: 'HDFC Top 100 Fund', category: 'Large Cap', returns1y: '18.5%', returns3y: '15.2%', returns5y: '14.8%' },
+    //     { name: 'ICICI Prudential Bluechip Fund', category: 'Large Cap', returns1y: '17.8%', returns3y: '14.9%', returns5y: '14.2%' },
+    //     { name: 'Axis Midcap Fund', category: 'Mid Cap', returns1y: '22.3%', returns3y: '18.7%', returns5y: '16.5%' },
+    //     { name: 'Kotak Emerging Equity Fund', category: 'Mid Cap', returns1y: '21.5%', returns3y: '17.9%', returns5y: '15.8%' },
+    //     { name: 'SBI Small Cap Fund', category: 'Small Cap', returns1y: '25.2%', returns3y: '20.1%', returns5y: '18.3%' },
+    //     { name: 'Nippon India Small Cap Fund', category: 'Small Cap', returns1y: '24.8%', returns3y: '19.5%', returns5y: '17.9%' },
+    // ];
     const topFunds = [
-        { name: 'HDFC Top 100 Fund', category: 'Large Cap', returns1y: '18.5%', returns3y: '15.2%', returns5y: '14.8%' },
-        { name: 'ICICI Prudential Bluechip Fund', category: 'Large Cap', returns1y: '17.8%', returns3y: '14.9%', returns5y: '14.2%' },
-        { name: 'Axis Midcap Fund', category: 'Mid Cap', returns1y: '22.3%', returns3y: '18.7%', returns5y: '16.5%' },
-        { name: 'Kotak Emerging Equity Fund', category: 'Mid Cap', returns1y: '21.5%', returns3y: '17.9%', returns5y: '15.8%' },
-        { name: 'SBI Small Cap Fund', category: 'Small Cap', returns1y: '25.2%', returns3y: '20.1%', returns5y: '18.3%' },
-        { name: 'Nippon India Small Cap Fund', category: 'Small Cap', returns1y: '24.8%', returns3y: '19.5%', returns5y: '17.9%' },
+        { name: 'Large Cap Fund A', category: 'Large Cap', returns1y: '18.5%', returns3y: '15.2%', returns5y: '14.8%' },
+        { name: 'Large Cap Fund B', category: 'Large Cap', returns1y: '17.8%', returns3y: '14.9%', returns5y: '14.2%' },
+        { name: 'Mid Cap Fund A', category: 'Mid Cap', returns1y: '22.3%', returns3y: '18.7%', returns5y: '16.5%' },
+        { name: 'Mid Cap Fund B', category: 'Mid Cap', returns1y: '21.5%', returns3y: '17.9%', returns5y: '15.8%' },
+        { name: 'Small Cap Fund A', category: 'Small Cap', returns1y: '25.2%', returns3y: '20.1%', returns5y: '18.3%' },
+        { name: 'Small Cap Fund B', category: 'Small Cap', returns1y: '24.8%', returns3y: '19.5%', returns5y: '17.9%' },
     ];
 
     return (
@@ -18,7 +27,7 @@ const FundPerformance = () => {
                 title="Mutual Fund Performance"
                 subtitle="Track and compare top-performing mutual funds across different categories"
                 image={toolsHeader}
-                badge="Live Market Data"
+                badge="Illustrative Data"
             />
 
             <section className="py-16 md:py-24 bg-neutral-50">
@@ -32,6 +41,12 @@ const FundPerformance = () => {
                         <h2 className="text-3xl font-bold text-neutral-900 mb-4">Top Performing Funds</h2>
                         <p className="text-neutral-600">Based on historical returns. Past performance doesn't guarantee future results.</p>
                     </motion.div>
+
+                    <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-xl">
+                        <p className="text-sm text-neutral-700">
+                            <strong>Note:</strong> The fund names and figures shown below are illustrative examples for demonstration purposes only. They are not real-time, AMC-verified, or actual investable schemes.
+                        </p>
+                    </div>
 
                     <div className="bg-white rounded-2xl shadow-soft overflow-hidden">
                         <div className="overflow-x-auto">

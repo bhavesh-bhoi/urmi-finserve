@@ -77,7 +77,7 @@ const Services = () => {
                                 Need Help Choosing the Right Service?
                             </h2>
                             <p className="text-lg text-neutral-100 mb-8">
-                                Our financial experts are here to guide you through your investment journey. Get personalized advice tailored to your financial goals.
+                                Our team is here to guide you through your investment journey. Get guidance in choosing mutual fund schemes suited to your financial goals.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link to="/contact" className="btn-accent">

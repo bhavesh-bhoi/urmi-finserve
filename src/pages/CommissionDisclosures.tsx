@@ -9,7 +9,6 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Regular Plans",
-                    upfront: "Up to 1.00% of investment amount",
                     trail: "Up to 1.00% per annum of AUM",
                     notes: "Commission varies by AMC and scheme"
                 }
@@ -20,7 +19,6 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Regular Plans",
-                    upfront: "Up to 0.75% of investment amount",
                     trail: "Up to 0.75% per annum of AUM",
                     notes: "Lower commission for liquid and ultra-short duration funds"
                 }
@@ -31,7 +29,6 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Regular Plans",
-                    upfront: "Up to 0.85% of investment amount",
                     trail: "Up to 0.85% per annum of AUM",
                     notes: "Commission based on equity-debt allocation"
                 }
@@ -42,7 +39,6 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Regular Plans",
-                    upfront: "Up to 1.00% of investment amount",
                     trail: "Up to 0.50% per annum of AUM",
                     notes: "Subject to 3-year lock-in period"
                 }
@@ -53,25 +49,21 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Term Insurance",
-                    upfront: "Up to 25% of first year premium",
                     trail: "Up to 5% of renewal premiums",
                     notes: "Commission structure varies by insurer"
                 },
                 {
                     type: "ULIP (Unit Linked Insurance Plans)",
-                    upfront: "Up to 20% of first year premium",
                     trail: "Up to 7.5% of renewal premiums",
                     notes: "Subject to IRDAI regulations"
                 },
                 {
                     type: "Traditional Life Insurance",
-                    upfront: "Up to 15% of first year premium",
                     trail: "Up to 5% of renewal premiums",
                     notes: "Includes endowment and money-back policies"
                 },
                 {
                     type: "Health Insurance",
-                    upfront: "Up to 15% of premium",
                     trail: "Up to 10% of renewal premiums",
                     notes: "Commission on individual and family floater plans"
                 }
@@ -82,13 +74,11 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "Fixed Deposits",
-                    upfront: "Up to 0.25% of deposit amount",
                     trail: "N/A",
-                    notes: "One-time commission from banks/NBFCs"
+                    notes: "Commission from banks/NBFCs"
                 },
                 {
                     type: "Bonds & NCDs",
-                    upfront: "Up to 0.50% of investment amount",
                     trail: "N/A",
                     notes: "Commission varies by issuer and tenure"
                 }
@@ -99,13 +89,11 @@ const CommissionDisclosures = () => {
             products: [
                 {
                     type: "PPF, NSC, SCSS",
-                    upfront: "No commission",
                     trail: "No commission",
                     notes: "We provide guidance as a complimentary service"
                 },
                 {
                     type: "NPS (National Pension System)",
-                    upfront: "Up to 0.25% of contribution",
                     trail: "N/A",
                     notes: "As per PFRDA guidelines"
                 }
@@ -120,15 +108,11 @@ const CommissionDisclosures = () => {
         },
         {
             title: "Direct vs Regular Plans",
-            description: "Mutual funds offer both Direct and Regular plans. Direct plans have lower expense ratios as they don't include distributor commissions. Regular plans, which we distribute, have slightly higher expense ratios that include our commission. We can help you choose between Direct and Regular plans based on the value of our advisory services."
+            description: "Mutual funds offer both Direct and Regular plans. Direct plans have lower expense ratios as they don't include distributor commissions. Regular plans, which we distribute, have slightly higher expense ratios that include our commission. We can help you understand the difference between Direct and Regular plans and the distribution support we provide."
         },
         {
             title: "Trail Commission",
             description: "Trail commission is an ongoing commission paid annually based on the Assets Under Management (AUM) you maintain in the investment. This incentivizes us to provide continuous service and support throughout your investment journey."
-        },
-        {
-            title: "Upfront Commission",
-            description: "Upfront commission is a one-time payment received at the time of investment. This is typically a percentage of the investment amount and varies by product type and AMC."
         },
         {
             title: "Commission Variations",
@@ -158,8 +142,8 @@ const CommissionDisclosures = () => {
             description: "We do not recommend frequent switching between schemes or products to generate additional commissions. Any switch recommendation is made in your best interest based on performance, market conditions, or changes in your financial situation."
         },
         {
-            title: "Fee-Based Advisory",
-            description: "For clients who prefer not to invest through commission-based products, we offer fee-based advisory services where you pay us directly for our advice. This eliminates any potential conflict of interest from commissions."
+            title: "Regular Plans Only",
+            description: "As an AMFI-registered Mutual Fund Distributor, we distribute Regular Plans and earn commission from AMCs and other product providers. We do not charge clients separate advisory or consultation fees."
         }
     ];
 
@@ -186,7 +170,7 @@ const CommissionDisclosures = () => {
                                 At <strong>Urmi Financial Services Pvt Ltd</strong>, we believe in complete transparency regarding how we are compensated for our services. This document discloses the commissions and fees we receive from various financial product providers.
                             </p>
                             <p className="text-neutral-600 leading-relaxed">
-                                As a SEBI-registered distributor and AMFI-certified advisor, we earn commissions from Asset Management Companies (AMCs), insurance companies, and other financial institutions when you invest through us. This disclosure helps you understand our compensation structure and make informed decisions.
+                                As an AMFI-registered Mutual Fund Distributor, we earn commissions from Asset Management Companies (AMCs), insurance companies, and other financial institutions when you invest through us. This disclosure helps you understand our compensation structure and make informed decisions.
                             </p>
                         </div>
                     </motion.div>
@@ -219,7 +203,6 @@ const CommissionDisclosures = () => {
                                             <thead>
                                                 <tr className="bg-neutral-50 border-b border-neutral-200">
                                                     <th className="text-left py-3 px-4 font-semibold text-neutral-700">Product Type</th>
-                                                    <th className="text-left py-3 px-4 font-semibold text-neutral-700">Upfront Commission</th>
                                                     <th className="text-left py-3 px-4 font-semibold text-neutral-700">Trail Commission</th>
                                                     <th className="text-left py-3 px-4 font-semibold text-neutral-700">Notes</th>
                                                 </tr>
@@ -228,7 +211,6 @@ const CommissionDisclosures = () => {
                                                 {category.products.map((product, idx) => (
                                                     <tr key={idx} className="border-b border-neutral-100 hover:bg-neutral-50 transition-colors">
                                                         <td className="py-3 px-4 font-medium text-neutral-800">{product.type}</td>
-                                                        <td className="py-3 px-4 text-neutral-600">{product.upfront}</td>
                                                         <td className="py-3 px-4 text-neutral-600">{product.trail}</td>
                                                         <td className="py-3 px-4 text-sm text-neutral-500">{product.notes}</td>
                                                     </tr>
@@ -330,7 +312,7 @@ const CommissionDisclosures = () => {
                                 <div>
                                     <h3 className="font-semibold mb-3 text-neutral-100">SEBI Regulations</h3>
                                     <p className="text-neutral-100 text-sm leading-relaxed">
-                                        Our commission structure complies with SEBI (Mutual Fund) Regulations and SEBI (Investment Advisers) Regulations. We adhere to all disclosure requirements mandated by the regulatory authorities.
+                                        Our commission structure complies with SEBI (Mutual Funds) Regulations and AMFI guidelines. We adhere to all disclosure requirements mandated by the regulatory authorities.
                                     </p>
                                 </div>
                                 <div>
@@ -386,7 +368,7 @@ const CommissionDisclosures = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <p className="text-neutral-700">
-                                        <strong>Right to Fee-Based Advisory:</strong> You can opt for fee-based advisory services where you pay us directly instead of through product commissions.
+                                        <strong>Right to Switch:</strong> You can request to switch your existing investments between Regular and Direct plans at any time, subject to applicable exit loads and tax implications.
                                     </p>
                                 </div>
                                 <div className="flex items-start space-x-3">
@@ -414,10 +396,10 @@ const CommissionDisclosures = () => {
                                 We encourage you to ask questions about our commission structure. Transparency is the foundation of our client relationships, and we're happy to provide detailed information about how we're compensated.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <a href="mailto:info@urmifinancial.com" className="btn-primary">
+                                <a href="mailto:care@urmifinserve.com" className="btn-primary">
                                     Email Us
                                 </a>
-                                <a href="tel:+911234567890" className="btn-secondary">
+                                <a href="tel:+919328933841" className="btn-secondary">
                                     Call Us
                                 </a>
                             </div>

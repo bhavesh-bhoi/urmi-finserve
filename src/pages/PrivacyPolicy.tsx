@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
                 },
                 {
                     subtitle: "Financial Information",
-                    text: "With your consent, we collect financial information including investment preferences, risk profile, income details, and investment goals to provide personalized financial advisory services."
+                    text: "With your consent, we collect financial information including investment preferences, risk profile, income details, and investment goals to provide personalized Mutual Fund Distribution services."
                 }
             ]
         },
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
                 },
                 {
                     subtitle: "Personalization",
-                    text: "We analyze your information to understand your financial needs and provide personalized investment recommendations and financial planning advice."
+                    text: "We analyze your information to understand your financial needs and provide personalized mutual fund scheme suggestions based on your investment goals."
                 },
                 {
                     subtitle: "Compliance & Legal",
@@ -221,18 +221,18 @@ const PrivacyPolicy = () => {
                             <div>
                                 <p className="font-semibold mb-2">Urmi Financial Services Pvt Ltd</p>
                                 <p className="text-neutral-100">
-                                    Email: <a href="mailto:info@urmifinancial.com" className="underline hover:text-accent-green transition-colors">info@urmifinancial.com</a>
+                                    Email: <a href="mailto:care@urmifinserve.com" className="underline hover:text-accent-green transition-colors">care@urmifinserve.com</a>
                                 </p>
                                 <p className="text-neutral-100">
-                                    Phone: <a href="tel:+911234567890" className="underline hover:text-accent-green transition-colors">+91 123 456 7890</a>
+                                    Phone: <a href="tel:+919328933841" className="underline hover:text-accent-green transition-colors">+91 93289 33841</a>
                                 </p>
                             </div>
                             <div>
                                 <p className="font-semibold mb-2">Office Address</p>
                                 <p className="text-neutral-100">
-                                    [Your Office Address]<br />
-                                    [City, State - PIN Code]<br />
-                                    India
+                                    806, Eight Floor, Homeland City, Opp J H Ambani School,<br />
+                                    Udhna Magdalla Road, Vesu, Surat 395007,<br />
+                                    Gujarat, India
                                 </p>
                             </div>
                         </div>
@@ -246,7 +246,7 @@ const PrivacyPolicy = () => {
                         className="mt-8 p-6 bg-neutral-50 rounded-xl border border-neutral-200"
                     >
                         <p className="text-sm text-neutral-600 text-center">
-                            <strong>Regulatory Compliance:</strong> Urmi Financial Services Pvt Ltd is registered with SEBI and complies with all applicable data protection and privacy regulations in India, including the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011.
+                            <strong>Regulatory Compliance:</strong> Urmi Financial Services Pvt Ltd is an AMFI-registered Mutual Fund Distributor (ARN: 312394) operating under the framework of SEBI (Mutual Funds) Regulations. We are not a SEBI-registered Investment Adviser. We comply with all applicable data protection and privacy regulations in India, including the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011.
                         </p>
                     </motion.div>
                 </div>

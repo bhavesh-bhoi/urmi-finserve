@@ -39,7 +39,7 @@ const EducationCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Education Planning Report',
+            title: 'Education Calculator Report',
             subtitle: 'Secure Your Child\'s Future',
             calculatorType: 'Education',
             inputs: [
@@ -63,7 +63,7 @@ const EducationCalculator = () => {
 
     return (
         <div className="min-h-screen bg-neutral-50">
-            <PageHeader title="Education Planning" subtitle="Secure your child's future education" image={toolsHeader} badge="Planning Tool" />
+            <PageHeader title="Education Calculator" subtitle="Secure your child's future education" image={toolsHeader} badge="Calculator Tool" />
             <div className="section-container py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6 card">
@@ -79,7 +79,7 @@ const EducationCalculator = () => {
                                     <div className="group relative">
                                         <FaInfoCircle className="text-neutral-400 cursor-help text-xs" />
                                         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-3 bg-neutral-900 text-white text-xs rounded-lg shadow-lg z-10">
-                                            Current cost of the education program you're planning for
+                                            Current cost of the education program you have in mind
                                         </div>
                                     </div>
                                 </label>
@@ -175,7 +175,7 @@ const EducationCalculator = () => {
 
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> Education costs vary significantly. This calculator provides estimates. Consider additional costs like accommodation, books, and living expenses.
+                        <strong>Disclaimer:</strong> Education costs vary significantly. This calculator provides estimates. Consider additional costs like accommodation, books, and living expenses. This does not constitute investment advice; please consult a SEBI-registered Investment Adviser for personalized advice.
                     </p>
                 </motion.div>
             </div>

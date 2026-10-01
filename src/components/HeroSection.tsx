@@ -36,7 +36,7 @@ const HeroSection = () => {
                         </h1>
 
                         <p className="text-lg lg:text-xl text-neutral-600 leading-relaxed max-w-xl">
-                            Expert financial guidance for Mutual Funds, Insurance, Wealth Management, and more. Your dreams, our commitment.
+                            Expert guidance for Mutual Funds, Insurance, Investment Solutions, and more. Your dreams, our commitment.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -66,7 +66,7 @@ const HeroSection = () => {
                         >
                             {[
                                 { value: '1000+', label: 'Happy Clients' },
-                                { value: '₹500Cr+', label: 'AUM Managed' },
+                                { value: '₹500Cr+', label: 'AUM Facilitated' },
                                 { value: '15+', label: 'Years Exp.' }
                             ].map((metric, index) => (
                                 <div key={index} className="text-center lg:text-left">
@@ -93,7 +93,7 @@ const HeroSection = () => {
                             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                                 <img
                                     src={heroImage}
-                                    alt="Financial Planning with Urmi Financial Services"
+                                    alt="Investing with Urmi Financial Services"
                                     className="w-full h-auto object-cover"
                                 />
                             </div>
